@@ -1,1 +1,3 @@
-# HeteroCraft.github.io
+---
+permalink: /index.html
+---
