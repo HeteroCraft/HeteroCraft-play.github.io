@@ -1,7 +1,54 @@
-<title>挂售中心</title>
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>挂售市场 _ HeteroCraft Server</title>
+  </head>
+  <body>
+    <h1>挂售市场帮助</h1>
+    <div class="faq-container">
+      <div class="faq">
+        <h3 class="faq-title">
+          如何打开挂售市场?
+        </h3>
+        <p class="faq-text">
+          请您使用/cd打开菜单后选择"蛋糕"图标(挂售市场)以打开.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
 
-<h1>挂售中心帮助</h1>
-<b>手持你想要操作的物品</b><br />
-<b>出售</b> /ca sell &lt;价格&gt; [数量]<br />
-<b>收购</b> /ca buy &lt;价格&gt; [数量]<br />
-<b>拍卖</b> /ca bid &lt;价格&gt; <br />
+      <div class="faq active">
+        <h3 class="faq-title">
+          如何上架一个物品出售到挂售市场?
+        </h3>
+        <p class="faq-text">
+          手持您想要出售的物品, 执行命令/ca sell <价格>即可上架.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-title">
+          如何上架一个物品拍卖到挂售市场?
+        </h3>
+        <p class="faq-text">
+          手持您想要拍卖的物品, 执行命令/ca bid <价格>即可上架.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
